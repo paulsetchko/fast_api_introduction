@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "fastapiintroduction"
+version = "0.1.0"
+description = "fast api introduction course"
+authors = ["Paul Setchko <paul.setchko@icloud.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/paulsetchko/fast_api_introduction"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.111.0"
+pydantic = "^2.7.1"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.4.5"
+pre-commit = "^3.7.1"
+pylint = "^3.2.2"
+mypy = "^1.10.0"
+black = "^24.4.2"
+pylint-pydantic = "^0.3.2"
+flake8 = "^7.0.0"
+isort = "^5.13.2"
+autoflake = "^2.3.1"
